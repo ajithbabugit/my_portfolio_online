@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import Image from "next/image"; // Add this line if you use Image component from 'next/image'
 
 export default function Portfolio() {
   const seoKeywords = [
@@ -242,8 +241,8 @@ export default function Portfolio() {
             className="text-center"
           >
             <h2 className="text-4xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-              Let's Connect
-            </h2>
+  Let&apos;s Connect
+</h2>
             
             {/* Contact Buttons */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
