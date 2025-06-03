@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from "next/image"; // Add this line if you use Image component from 'next/image'
 
 export default function Portfolio() {
   const seoKeywords = [
